@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d892f560.chunk.css",
+    "main.js": "/portfolio/static/js/main.2bbc1546.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.2bbc1546.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b1957c7c.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b1957c7c.js.map",
+    "static/js/2.903df1f6.chunk.js": "/portfolio/static/js/2.903df1f6.chunk.js",
+    "static/js/2.903df1f6.chunk.js.map": "/portfolio/static/js/2.903df1f6.chunk.js.map",
+    "static/js/3.aacad229.chunk.js": "/portfolio/static/js/3.aacad229.chunk.js",
+    "static/js/3.aacad229.chunk.js.map": "/portfolio/static/js/3.aacad229.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.d892f560.chunk.css.map": "/portfolio/static/css/main.d892f560.chunk.css.map",
+    "static/js/2.903df1f6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.903df1f6.chunk.js.LICENSE.txt",
+    "static/media/Profile.css": "/portfolio/static/media/fady.211b82fb.jpg",
+    "static/media/Portfolio.css": "/portfolio/static/media/it6.14607f20.jpg",
+    "static/media/AboutMe.css": "/portfolio/static/media/undraw_businessman_re_mlee.740d6596.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b1957c7c.js",
+    "static/js/2.903df1f6.chunk.js",
+    "static/css/main.d892f560.chunk.css",
+    "static/js/main.2bbc1546.chunk.js"
+  ]
+}
