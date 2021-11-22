@@ -1,0 +1,111 @@
+.profile-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 10%;
+    min-height: fit-content;
+    /*background-image: url(../../assets/bg2.jpg);*/
+    background: var(--bg);
+    flex-direction: column;
+}
+.profile-parent{
+    display: flex;
+    color: var(--white); /* دى الكتابة ابقي غيرها */
+}
+/* profile-details */
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.profile-details-links a{
+    color: var(--white);
+    padding: 4px;
+    margin: 0;
+    font-size: 25px;
+}
+.profile-details-links a .fab:hover{
+    color: var(--orange);
+    transition: 0.3s ease-out;
+}
+
+
+.profile-details-name{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.highlight-text{
+    color: var(--orange);
+}
+.profile-title{
+    font-size: 50px;
+    font-weight: bold;
+}
+.profile-paragraph{
+    color: var(--white);
+    width: 70%;
+    text-align: center;
+}
+
+
+/* profile-picture */
+/* Right Side - Background Picture */
+.profile-picture{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 3px 0 var(--white);
+    width: 300px;
+    height: 300px;
+    margin:0 0 0 100px;
+}
+.profile-picture-background{
+    height: 95%;
+    width: 95%;
+    background-image: url(./../../assets/fady.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+.profile-picture-background:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-out;
+}
+
+/* Ipad Pro */
+@media screen and (max-width : 1110px){
+    .profile-picture{
+        margin:0 0 0 70px;
+    }
+}
+
+
+/* Ipad Pro */
+@media screen and (max-width : 910px){
+    .profile-picture{
+        width: 320px;
+        height: 320px;
+        margin:0 0 0 4px;
+    }
+}
+
+@media screen and (max-width : 810px){
+    .profile-picture{
+        margin:0;
+    }
+    .profile-parent{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 40px 0 0 0;
+    }
+}
