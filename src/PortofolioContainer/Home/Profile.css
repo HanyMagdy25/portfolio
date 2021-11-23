@@ -12,6 +12,7 @@
 .profile-parent{
     display: flex;
     color: var(--white); /* دى الكتابة ابقي غيرها */
+    margin-top: 40px;
 }
 /* profile-details */
 
@@ -21,6 +22,7 @@
     align-items: center;
     text-align: center;
     justify-content: center;
+    width: 65%;
 }
 .profile-details-links a{
     color: var(--white);
@@ -107,5 +109,12 @@
         flex-direction: column-reverse;
         align-items: center;
         margin: 40px 0 0 0;
+    }
+    .profile-details{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .profile-paragraph{
+        width: 95%;
     }
 }

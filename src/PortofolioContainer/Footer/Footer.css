@@ -1,0 +1,47 @@
+.footer {
+  height: 100%;
+  background: var(--bg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 80px;
+}
+.footer-container {
+  margin-top: 60px;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-links {
+  margin-top: 0px;
+}
+
+.footer-links a {
+  color: var(--white);
+  padding: 4px;
+  margin: 0 3px;
+  font-size: 35px;
+}
+.footer-links a .fab:hover {
+  color: var(--orange);
+  transition: 0.2s ease-out;
+}
+
+.footer-pragraph {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.copyright {
+  color: var(--bg-light); 
+}
+.copyright .flores {
+  color: var(--orange);
+}
+.copyright .flores:hover {
+  color: var(--orange);
+  text-decoration: none;
+}

@@ -14,7 +14,7 @@ const Portfolio = () => {
       <div className="all-cards">
         <div className="card-one">
           <div className="card-content">
-            <h2 className="card-title">first card</h2>
+            <h2 className="card-title">First Card</h2>
             <p className="card-body">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -27,7 +27,7 @@ const Portfolio = () => {
 
         <div className="card-two">
           <div className="card-content">
-            <h2 className="card-title">first card</h2>
+            <h2 className="card-title">Second Card</h2>
             <p className="card-body">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -40,7 +40,7 @@ const Portfolio = () => {
 
         <div className="card-three">
           <div className="card-content">
-            <h2 className="card-title">first card</h2>
+            <h2 className="card-title">Third card</h2>
             <p className="card-body">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

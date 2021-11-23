@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import AboutMe from './PortofolioContainer/AboutMe/AboutMe';
 import Profile from './PortofolioContainer/Home/Profile';
 import Portfolio from './PortofolioContainer/Portfolio/Portfolio';
+import Footer from './PortofolioContainer/Footer/Footer';
 
 
 
@@ -14,6 +15,7 @@ function App() {
         <Profile/>
         <AboutMe/>
         <Portfolio/>
+        <Footer/>
       </Router>
       
     </>
