@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ec1571d1.chunk.css",
-    "main.js": "/portfolio/static/js/main.c02065e7.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c02065e7.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.3c6cd873.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3c6cd873.js.map",
-    "static/js/2.903df1f6.chunk.js": "/portfolio/static/js/2.903df1f6.chunk.js",
-    "static/js/2.903df1f6.chunk.js.map": "/portfolio/static/js/2.903df1f6.chunk.js.map",
-    "static/js/3.23c466a3.chunk.js": "/portfolio/static/js/3.23c466a3.chunk.js",
-    "static/js/3.23c466a3.chunk.js.map": "/portfolio/static/js/3.23c466a3.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1c5148ae.chunk.css",
+    "main.js": "/portfolio/static/js/main.3e4c648a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3e4c648a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f062209b.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f062209b.js.map",
+    "static/js/2.e079fca3.chunk.js": "/portfolio/static/js/2.e079fca3.chunk.js",
+    "static/js/2.e079fca3.chunk.js.map": "/portfolio/static/js/2.e079fca3.chunk.js.map",
+    "static/js/3.3171f66e.chunk.js": "/portfolio/static/js/3.3171f66e.chunk.js",
+    "static/js/3.3171f66e.chunk.js.map": "/portfolio/static/js/3.3171f66e.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.ec1571d1.chunk.css.map": "/portfolio/static/css/main.ec1571d1.chunk.css.map",
-    "static/js/2.903df1f6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.903df1f6.chunk.js.LICENSE.txt",
+    "static/css/main.1c5148ae.chunk.css.map": "/portfolio/static/css/main.1c5148ae.chunk.css.map",
+    "static/js/2.e079fca3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.e079fca3.chunk.js.LICENSE.txt",
     "static/media/Profile.css": "/portfolio/static/media/fady.211b82fb.jpg",
     "static/media/Portfolio.css": "/portfolio/static/media/it6.14607f20.jpg",
     "static/media/AboutMe.css": "/portfolio/static/media/undraw_businessman_re_mlee.740d6596.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3c6cd873.js",
-    "static/js/2.903df1f6.chunk.js",
-    "static/css/main.ec1571d1.chunk.css",
-    "static/js/main.c02065e7.chunk.js"
+    "static/js/runtime-main.f062209b.js",
+    "static/js/2.e079fca3.chunk.js",
+    "static/css/main.1c5148ae.chunk.css",
+    "static/js/main.3e4c648a.chunk.js"
   ]
 }
