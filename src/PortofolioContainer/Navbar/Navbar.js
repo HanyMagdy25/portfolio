@@ -1,10 +1,33 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import { scroller } from "react-scroll";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
+  const scrollToContact = () => {
+    scroller.scrollTo("contact", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+  const scrollToAbout = () => {
+    scroller.scrollTo("about", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
+  const scrollToService = () => {
+    scroller.scrollTo("portofolio", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
 
   return (
     <>
@@ -23,17 +46,26 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/services" className="nav-links" onClick={handleClick}>
-                Services
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={handleClick}>
+              <Link to="/about" className="nav-links" onClick={scrollToAbout}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/contact" className="nav-links" onClick={handleClick}>
+              <Link
+                to="/services"
+                className="nav-links"
+                onClick={scrollToService}
+              >
+                Services
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link
+                to="/contact"
+                className="nav-links"
+                onClick={scrollToContact}
+              >
                 Contact
               </Link>
             </li>
